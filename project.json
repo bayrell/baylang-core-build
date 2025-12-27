@@ -1,0 +1,26 @@
+{
+    "name": "Builder",
+    "description": "Description",
+    "license": "Apache-2.0",
+    "author": "Ildar Bikmamatov <ildar@bayrell.org>",
+    "languages": ["php", "es6"],
+    "modules": [
+        {
+            "src": "lib",
+            "type": "folder"
+        }
+    ],
+    "assets": [
+        {
+            "type": "js",
+            "dest": "baylang/core-php/assets/runtime.js",
+            "modules": [
+                "@runtime",
+                "@widget"
+            ]
+        }
+    ],
+    "exclude": [
+        "baylang"
+    ]
+}

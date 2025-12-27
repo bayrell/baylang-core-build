@@ -1,0 +1,22 @@
+{
+  "name": "baylang-core-build",
+  "description": "BayLang builder",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "bash ./compile.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayrell/baylang-core-build.git"
+  },
+  "author": "Ildar Bikmamatov <ildar@bayrell.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bayrell/baylang-core-build/issues"
+  },
+  "homepage": "https://github.com/bayrell/baylang-core-build",
+  "dependencies": {
+    "bay-lang": "^1.0.0",
+    "uglify-js": "^3.19.3"
+  }
+}
